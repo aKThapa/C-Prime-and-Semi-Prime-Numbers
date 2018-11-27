@@ -2,7 +2,7 @@
 
 .Net 4.5.2
 
-This small C# console application outputs prime and semi prime numbers within a specified limit
+This small C# console application outputs prime and semi prime numbers upto a specified limit
 
 Every thing is commented so that it is easier to understand what every step of the code is doing
 
@@ -17,7 +17,7 @@ More info : https://en.wikipedia.org/wiki/Semiprime
 
 So, how do we calculate it exactly? 
 
-An Example output : where the limi is set to 100
+An Example output : where the limit is set to 100
 
 List of prime numbers :
 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
