@@ -13,6 +13,8 @@ For e.g [2, 3, 5, 7, 11, 13, 17, 19]
 A semi prime number is a product of two prime numbers, where the two primes can be equal, meaning it also includes squares of prime numbers.
 For e.g. [4, 6, 9, 10, 14, 15, 21, 22, 25, 26]
 
+More info : https://en.wikipedia.org/wiki/Semiprime
+
 So, how do we calculate it exactly? 
 
 An Example output : where the limi is set to 100
