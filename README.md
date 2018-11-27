@@ -1,4 +1,4 @@
-# C-Prime-and-Semi-Prime-Numbers
+# C# -Prime-and-Semi-Prime-Numbers
 
 .Net 4.5.2
 
