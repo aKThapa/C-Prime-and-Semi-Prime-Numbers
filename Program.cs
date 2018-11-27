@@ -14,7 +14,7 @@ namespace IsItASemiPrimeNumber
             //set the limit, in this case 100
             var limit = 100;
 
-            //get he list of prime numbers
+            //get the list of prime numbers
             var primeNumbers = primeNoClass.GetPrimeNumbers(limit);
             //get the list of semi prime numbers
             var semiPrimeNumbers = semiPrimeNoClass.GetSemiPrimeNumbers(primeNumbers, limit);
