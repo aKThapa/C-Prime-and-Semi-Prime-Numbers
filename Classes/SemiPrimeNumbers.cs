@@ -47,10 +47,10 @@ namespace IsItASemiPrimeNumber.Classes
                         //    examplePrimeNumber = [2 , 3, 5, 7, 11, 13, 17, 19, 23 ........n]
                         // now we need something like 
                         //(2 * 3)
-                        //(2 * 4) 
                         //(2 * 5) 
-                        //(2 * 6) 
                         //(2 * 7) 
+                        //(2 * 11) 
+                        //(2 * 13 
                         //where 2 = n (the outer loop increment)
                         //and in (2 * 3)   3 = n + 1(which will be the inner loop)
                         //therefore the i starts from n + 1
