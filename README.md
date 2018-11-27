@@ -1,4 +1,5 @@
 # C-Prime-and-Semi-Prime-Numbers
+.Net 4.5.2
 This small C# console application outputs prime and semi prime numbers within a specified range
 Every thing is coded so that it is easier to understand what every step of the code is doing
 
