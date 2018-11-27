@@ -6,7 +6,7 @@ This small C# console application outputs prime and semi prime numbers within a 
 
 Every thing is commented so that it is easier to understand what every step of the code is doing
 
-A prime number is a nubmer that is only divisible by itself and 1
+So a prime number is a nubmer that is only divisible by itself and 1
 
 For e.g [2, 3, 5, 7, 11, 13, 17, 19] 
 
