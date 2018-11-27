@@ -53,7 +53,7 @@ namespace IsItASemiPrimeNumber.Classes
                         //(2 * 7) 
                         //where 2 = n (the outer loop increment)
                         //and in (2 * 3)   3 = n + 1(which will be the inner loop)
-                        //therefore the i starts from 1
+                        //therefore the i starts from n + 1
                         for (var i = n + 1; i < primeNumbers.Count; i++)
                         {
 
