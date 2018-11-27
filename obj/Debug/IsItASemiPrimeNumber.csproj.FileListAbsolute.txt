@@ -1,0 +1,5 @@
+E:\Programming\C#\IsItASemiPrimeNumber\IsItASemiPrimeNumber\bin\Debug\IsItASemiPrimeNumber.exe.config
+E:\Programming\C#\IsItASemiPrimeNumber\IsItASemiPrimeNumber\bin\Debug\IsItASemiPrimeNumber.exe
+E:\Programming\C#\IsItASemiPrimeNumber\IsItASemiPrimeNumber\bin\Debug\IsItASemiPrimeNumber.pdb
+E:\Programming\C#\IsItASemiPrimeNumber\IsItASemiPrimeNumber\obj\Debug\IsItASemiPrimeNumber.exe
+E:\Programming\C#\IsItASemiPrimeNumber\IsItASemiPrimeNumber\obj\Debug\IsItASemiPrimeNumber.pdb
