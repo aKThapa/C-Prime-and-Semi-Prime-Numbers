@@ -3,7 +3,8 @@
 .Net 4.5.2
 
 This small C# console application outputs prime and semi prime numbers within a specified limit
-Every thing is coded so that it is easier to understand what every step of the code is doing
+
+Every thing is commented so that it is easier to understand what every step of the code is doing
 
 A prime number is a nubmer that is only divisible by itself and 1
 
