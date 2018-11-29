@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using IsItASemiPrimeNumber.Classes;
 
 namespace IsItASemiPrimeNumber
@@ -7,12 +8,14 @@ namespace IsItASemiPrimeNumber
     {
         static void Main(string[] args)
         {
+            var s = new Stopwatch();
+            s.Start();
             //create an instance of PrimeNumbers and SemiPrimeNumbers class respectively
             var primeNoClass = new PrimeNumbers();
             var semiPrimeNoClass = new SemiPrimeNumbers();
 
             //set the limit, in this case 100
-            var limit = 100;
+            var limit = 100000;
 
             //get the list of prime numbers
             var primeNumbers = primeNoClass.GetPrimeNumbers(limit);
@@ -39,6 +42,8 @@ namespace IsItASemiPrimeNumber
             }
             Console.WriteLine("\nList of semi prime numbers : ");
             Console.WriteLine(semiPrimeNumbersListString.Trim());// display 
+            s.Stop();
+            Console.WriteLine($"Ellapsed ms : {s.ElapsedMilliseconds}");
         }
     }
 }

@@ -28,55 +28,57 @@ namespace IsItASemiPrimeNumber.Classes
                 //since semi primes also includes squares of any prime numbers let's
                 //get it's square first
                 var squareNumber = primeNumbers[n] * primeNumbers[n];// multiplying by itself
-                if (squareNumber == limit)
+                if (squareNumber >= limit)
                 {
                     //we only want anything upto and equal the limit, so if it's equal then we add it to the list 
                     //anything from this point is only going to be higher, so we can break the loop at this point, again helps with optimisation
-                    requiredSemiPrimes.Add(squareNumber);
+                    if (squareNumber == limit)
+                    {
+                        requiredSemiPrimes.Add(squareNumber);
+                    }
                     break;
                 }
-                else
+                if (squareNumber < limit)
                 {
-                    if (squareNumber < limit)
+                    //if the sqaure number is also less than the limit then add it to the list
+                    requiredSemiPrimes.Add(squareNumber);
+
+                    //now let's look for other possibilities of semiprimes by creating another loop(an inner loop)
+                    //for e.g : we have a list of prime numbers 
+                    //    examplePrimeNumber = [2 , 3, 5, 7, 11, 13, 17, 19, 23 ........n]
+                    // now we need something like 
+                    //(2 * 3)
+                    //(2 * 5) 
+                    //(2 * 7) 
+                    //(2 * 11) 
+                    //(2 * 13 
+                    //where 2 = n (the outer loop increment)
+                    //and in (2 * 3)   3 = n + 1(which will be the inner loop increment)
+                    //therefore the i starts from n + 1
+                    for (var i = n + 1; i < primeNumbers.Count; i++)
                     {
-                        //if the sqaure number is also less than the limit then add it to the list
-                        requiredSemiPrimes.Add(squareNumber);
 
-                        //now let's look for other possibilities of semiprimes by creating another loop(an inner loop)
-                        //for e.g : we have a list of prime numbers 
-                        //    examplePrimeNumber = [2 , 3, 5, 7, 11, 13, 17, 19, 23 ........n]
-                        // now we need something like 
-                        //(2 * 3)
-                        //(2 * 5) 
-                        //(2 * 7) 
-                        //(2 * 11) 
-                        //(2 * 13 
-                        //where 2 = n (the outer loop increment)
-                        //and in (2 * 3)   3 = n + 1(which will be the inner loop increment)
-                        //therefore the i starts from n + 1
-                        for (var i = n + 1; i < primeNumbers.Count; i++)
+                        var semiPrime = primeNumbers[n] * primeNumbers[i];
+                        if (semiPrime < limit)
                         {
-
-                            var semiPrime = primeNumbers[n] * primeNumbers[i];
-                            if (semiPrime < limit)
-                            {
-                                //if it's less than the limit add it to the list
-                                requiredSemiPrimes.Add(semiPrime);
-                            }
+                            //if it's less than the limit add it to the list
+                            requiredSemiPrimes.Add(semiPrime);
+                        }
+                        if (semiPrime >= limit)
+                        {
                             if (semiPrime == limit)
                             {
                                 requiredSemiPrimes.Add(semiPrime);
-                                //at this point the semi prime has reached it's limit so we set the flag to break entire loop to true and break out of this inner loop aswell
-                                breakEntireLoop = true;//set to true
-                                //break inner loop
-                                break;
                             }
-
+                            //at this point the semi prime has reached it's limit so we set the flag to break entire loop to true and break out of this inner loop aswell
+                            breakEntireLoop = true;//set to true
+                            //break inner loop
+                            break;
                         }
 
                     }
-                }
 
+                }
             }
 
             return requiredSemiPrimes.OrderBy(n => n).ToList();

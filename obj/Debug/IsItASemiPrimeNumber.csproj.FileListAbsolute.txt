@@ -3,3 +3,9 @@ E:\Programming\C#\IsItASemiPrimeNumber\IsItASemiPrimeNumber\bin\Debug\IsItASemiP
 E:\Programming\C#\IsItASemiPrimeNumber\IsItASemiPrimeNumber\bin\Debug\IsItASemiPrimeNumber.pdb
 E:\Programming\C#\IsItASemiPrimeNumber\IsItASemiPrimeNumber\obj\Debug\IsItASemiPrimeNumber.exe
 E:\Programming\C#\IsItASemiPrimeNumber\IsItASemiPrimeNumber\obj\Debug\IsItASemiPrimeNumber.pdb
+C:\Source\PrimeAndSemiPrime\bin\Debug\IsItASemiPrimeNumber.exe.config
+C:\Source\PrimeAndSemiPrime\bin\Debug\IsItASemiPrimeNumber.exe
+C:\Source\PrimeAndSemiPrime\bin\Debug\IsItASemiPrimeNumber.pdb
+C:\Source\PrimeAndSemiPrime\obj\Debug\IsItASemiPrimeNumber.csproj.CoreCompileInputs.cache
+C:\Source\PrimeAndSemiPrime\obj\Debug\IsItASemiPrimeNumber.exe
+C:\Source\PrimeAndSemiPrime\obj\Debug\IsItASemiPrimeNumber.pdb
