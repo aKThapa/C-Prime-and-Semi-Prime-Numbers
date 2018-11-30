@@ -14,7 +14,7 @@ namespace IsItASemiPrimeNumber
             var primeNoClass = new PrimeNumbers();
             var semiPrimeNoClass = new SemiPrimeNumbers();
 
-            //set the limit, in this case 100
+            //set the limit, in this case 100,000
             var limit = 100000;
 
             //get the list of prime numbers
